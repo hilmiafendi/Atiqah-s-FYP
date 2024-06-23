@@ -1,0 +1,33 @@
+//https://wokwi.com/projects/305569599398609473
+void setup(){
+pinMode(23,INPUT);
+pinMode(22,INPUT);
+pinMode(21,INPUT);
+pinMode(19,INPUT);
+pinMode(18,INPUT);
+Serial.begin(9600);
+ Serial.print("hello start");
+}
+
+void loop(){
+if(digitalRead(23)==LOW){
+  Serial.print("hello bitches");
+  delay(500);
+}
+if(digitalRead(22)==LOW){
+  Serial.print("hello nigga");
+  delay(500);
+}
+if(digitalRead(21)==LOW){
+  Serial.print("hello xin ping");
+  delay(500);
+}
+if(digitalRead(19)==LOW){
+  Serial.print("hail hydra");
+  delay(500);
+}
+if(digitalRead(18)==LOW){
+  Serial.print("its full bitches");
+  delay(500);
+}
+}
